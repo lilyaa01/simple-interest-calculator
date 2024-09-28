@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "Ana para miktarını girin: "
+read principal
+echo "Faiz oranını girin (% olarak): "
+read rate
+echo "Yıl sayısını girin: "
+read time
+
+interest=$(echo "$principal * $rate * $time / 100" | bc -l)
+echo "Basit faiz: $interest"
