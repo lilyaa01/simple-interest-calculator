@@ -1,1 +1,1 @@
- CODE OF CONDUCT.
+(https://github.com/ibm-developer-skills-network/coding-project-template)
